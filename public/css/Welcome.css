@@ -1,0 +1,146 @@
+body{
+    color: #2d3748;
+    background-color: #EBF2FF;
+}
+
+nav{
+    width: 80%;
+    height: 120px;
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    font-weight: bold;
+    margin-left: 10% ;
+    margin-right: 10% ;
+    background-color: #FF8585;
+    border-radius: 20px;
+}
+
+button {
+    flex-direction: row;
+    flex: 1 1 auto;
+    margin-right: 5%;
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+    background: #ffffff linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+    border-radius:6%;
+    border:1px solid #dcdcdc;
+    display:inline-block;
+    cursor:pointer;
+    color:#666666;
+    font-family: Arial, serif;
+    font-size:15px;
+    font-weight:bold;
+    text-decoration:none;
+    text-shadow:0 1px 0 #ffffff;
+    width: 10%;
+    height: 50px;
+    position: sticky;
+}
+button:hover {
+    background: #f6f6f6 linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+}
+button:active {
+    position:relative;
+    top:1px;
+}
+
+.openBtn {
+    display: flex;
+    justify-content: left;
+}
+.openButton {
+    border: none;
+    border-radius: 5px;
+    background-color: #1c87c9;
+    color: white;
+    padding: 14px 20px;
+    cursor: pointer;
+    position: fixed;
+}
+.loginPopup {
+    position: relative;
+    text-align: center;
+    width: 100%;
+}
+.formPopup {
+    display: none;
+    position: fixed;
+    left: 45%;
+    top: 5%;
+    transform: translate(-50%, 5%);
+    border: 3px solid #999999;
+    z-index: 9;
+}
+.formContainer {
+    max-width: 300px;
+    padding: 20px;
+    background-color: #fff;
+}
+.formContainer input[type=text],
+.formContainer input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 20px 0;
+    border: none;
+    background: #eee;
+}
+.formContainer input[type=text]:focus,
+.formContainer input[type=password]:focus {
+    background-color: #ffcdcd;
+    outline: none;
+}
+.formContainer .btn-login {
+    padding: 12px 20px;
+    border: none;
+    background-color: #8ebf42;
+    color: #ffffff;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    opacity: 0.8;
+}
+.formContainer .btn-cancel {
+    background-color: #cc0000;
+}
+.formContainer .btn:hover,
+.openButton:hover {
+    opacity: 1;
+}
+
+.first:hover {
+    box-shadow: 0 0 40px 40px #e74c3c inset;
+}
+
+.recycler_img{
+    position: absolute;
+    width: 50%;
+    top:200px;
+    height: 506.69px;
+    margin-right: 38.9%;
+    margin-left: 10%;
+    border-radius: 20px;
+}
+
+.recycler_background{
+    position: absolute;
+    width: 45%;
+    height: 505.19px;
+    margin-left: 43.9%;
+    margin-right: 10%;
+    top: 225px;
+    background: #B5C5FF;
+    border-radius: 20px;
+}
+
+.recycler_textholder{
+    position: absolute;
+    padding: 3%;
+    width: 51%;
+    height: 450px;
+    margin-left: 38.9%;
+    margin-right: 10%;
+    top: 15px;
+    background: rgba(255, 255, 255, 0.6);
+    border-radius: 20px;
+}
+
